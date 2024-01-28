@@ -51,15 +51,14 @@
 .sticky .btn-arrow-nav {
   display: flex;
   position: fixed;
-  box-shadow: inset 0 0 0 5px #020f1f;
-  background-color: rgba(2, 15, 31, 0.9);
+  background-color: rgba(2, 15, 31, 0.7);
   align-items: center;
   justify-content: center;
   right: 0;
-  top: 50%;
+  bottom: 0;
   padding: 0.8rem 1.2rem;
   font-size: 4rem;
-  color: #fff;
+  color: rgba(0, 255, 255, 0.7);
 }
 /* STICKY NAVIGATION */
 
@@ -201,7 +200,11 @@
 .projects-link:link,
 .projects-link:visited {
   color: #020f1f;
-  transition: all 0.2s;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+  transition: all 0.3s;
 }
 
 .projects-link:hover,
