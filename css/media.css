@@ -1,0 +1,160 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 100rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .heading-secondary {
+    font-size: 2.2rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    gap: 4.8;
+  }
+}
+
+/*below 940px TABLETS*/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero-contacts-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .hero-tech-list {
+    justify-content: center;
+  }
+
+  .container {
+    max-width: 100rem;
+  }
+  .btn-mobile-nav {
+    box-shadow: inset 0 0 0 5px #009999;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  .main-nav {
+    background-color: rgba(2, 15, 31, 0.6);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    transform: translateX(100%);
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    z-index: 999;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open {
+    background-color: #e6e7e9;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-navigation[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-navigation[name="menu-outline"] {
+    display: none;
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 9rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .course-name {
+    font-size: 4.2rem;
+  }
+}
+.projects-link {
+  font-size: 2rem !important;
+}
+
+/*704px small tablets*/
+@media (max-width: 44em) {
+  html {
+    font-size: 45%;
+  }
+  .course-name {
+    font-size: 3.2rem;
+  }
+}
+
+/*below 544 phones*/
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .section-projects {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .hero {
+    padding: 3.2rem;
+  }
+  .hero-img {
+    width: 80%;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+  .list {
+    justify-content: space-between;
+  }
+}
