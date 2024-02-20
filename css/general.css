@@ -105,7 +105,7 @@ body {
   display: flex;
   list-style: none;
   flex-direction: row;
-  gap: 1.6rem;
+  gap: 4.8rem;
 }
 .list-item {
   display: flex;

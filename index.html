@@ -2,16 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" href="./img/app/app-icon64.png" />
-    <link rel="apple-touch-icon" href="./img/app/app-icon180.png" />
-    <link rel="manifest" href="manifest.webmanifest" />
     <link
       href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./img/app/app-icon64.png" />
+    <link rel="apple-touch-icon" href="./img/app/app-icon180.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <title>Lonev Info</title>
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -93,29 +96,39 @@
             <p class="hero-text">Technologies:</p>
             <ul class="hero-tech-list list">
               <li>
-                <a class="link-node link" href="#node"
-                  ><ion-icon name="logo-nodejs"></ion-icon
-                ></a>
+                <ion-icon
+                  class="link-node link"
+                  name="logo-nodejs"
+                  title="node.js"
+                ></ion-icon>
               </li>
               <li>
-                <a class="link-js link" href="#js">
-                  <ion-icon name="logo-javascript"></ion-icon
-                ></a>
+                <ion-icon
+                  class="link-js link"
+                  name="logo-javascript"
+                  title="javascript"
+                ></ion-icon>
               </li>
               <li>
-                <a class="link-react link" href="#react"
-                  ><ion-icon name="logo-react"></ion-icon
-                ></a>
+                <ion-icon
+                  class="link-react link"
+                  name="logo-react"
+                  title="react.js"
+                ></ion-icon>
               </li>
               <li>
-                <a class="link-css link" href="#css">
-                  <ion-icon name="logo-css3"></ion-icon
-                ></a>
+                <ion-icon
+                  class="link-css link"
+                  name="logo-css3"
+                  title="css"
+                ></ion-icon>
               </li>
               <li>
-                <a class="link" href="#"
-                  ><ion-icon name="logo-tux"></ion-icon
-                ></a>
+                <ion-icon
+                  class="link-linux link"
+                  name="logo-tux"
+                  title="linux"
+                ></ion-icon>
               </li>
             </ul>
             <a
@@ -128,7 +141,7 @@
           <div class="hero-img-box">
             <img
               class="hero-img"
-              src="./img/Screenshot_from_2024-01-23_22-18-06-removebg-preview.png"
+              src="./img/Screenshot_from_2024-02-20_19-06-18-removebg-preview.png"
               alt="hero image"
             />
           </div>
@@ -139,7 +152,86 @@
           <span class="sub-heading">projects</span>
         </div>
         <div class="container grid grid--2-cols">
-          <div class="projects-text-box" id="node">
+          <div class="projects-text-box">
+            <h2 class="sub-heading projects-heading">Auto Service</h2>
+            <ul class="projects-tech-list">
+              <li class="projects-list-item">
+                <ion-icon name="globe-outline"></ion-icon>
+                <p class="projects-text">
+                  Link:
+                  <a
+                    target="_blank"
+                    class="projects-link"
+                    href="https://auto-service-bg.netlify.app/"
+                    >https://auto-service-bg.netlify.app/</a
+                  >
+                </p>
+              </li>
+              <li class="projects-list-item">
+                <ion-icon name="logo-github"></ion-icon>
+                <p class="projects-text">
+                  Github:
+                  <a
+                    target="_blank"
+                    class="projects-link"
+                    href="https://github.com/LonevVelislav/car-service"
+                    >https://github.com/LonevVelislav/car-service</a
+                  >
+                </p>
+              </li>
+
+              <li class="projects-list-item">
+                <ion-icon name="server-outline"></ion-icon>
+                <p class="projects-text">
+                  Server: <span class="projects-span">Node.js</span>
+                </p>
+              </li>
+              <li class="projects-list-item">
+                <ion-icon name="browsers-outline"></ion-icon>
+                <p class="projects-text">
+                  Client: <span class="projects-span">JavaScript</span>
+                </p>
+              </li>
+              <li class="projects-list-item">
+                <ion-icon name="analytics-outline"></ion-icon>
+                <p class="projects-text">
+                  Database: <span class="projects-span">MongoDB</span>
+                </p>
+              </li>
+            </ul>
+            <p class="margin-top-mid projects-text">
+              Software for fast car diagnostics and service, send a request for
+              car reapear easy from your laptop/phone, and keep track of your
+              car configuration.Admin/user logic, service part receives user
+              calls in real time thanks to server socket. Mostly raw JS with use
+              of two small libraries, lit-html for rendering and page for client
+              side routing. Node.js is used for server.
+            </p>
+          </div>
+          <div class="projects-img-box">
+            <img
+              class="projects-img width-70"
+              src="./img/projects/Screenshot from 2024-02-20 18-17-32.png"
+              alt="explorer-bg image"
+            />
+            <img
+              class="projects-img width-35"
+              src="./img/projects/Screenshot from 2024-02-20 18-13-12.png"
+              alt="explorer-bg image"
+            />
+            <img
+              class="projects-img width-35"
+              src="./img/projects/Screenshot from 2024-02-20 18-18-44.png"
+              alt="explorer-bg image"
+            />
+            <img
+              class="projects-img width-35"
+              src="./img/projects/Screenshot from 2024-02-20 18-19-15.png"
+              alt="explorer-bg image"
+            />
+          </div>
+
+          <div class="projects-text-box">
             <h2 class="sub-heading projects-heading">Explorer-bg</h2>
             <ul class="projects-tech-list">
               <li class="projects-list-item">
@@ -214,7 +306,7 @@
             </div>
           </div>
 
-          <div class="projects-text-box" id="react">
+          <div class="projects-text-box">
             <h2 class="sub-heading projects-heading">For The King</h2>
             <ul class="projects-tech-list">
               <li class="projects-list-item">
@@ -251,7 +343,7 @@
               <li class="projects-list-item">
                 <ion-icon name="browsers-outline"></ion-icon>
                 <p class="projects-text">
-                  Client: <span class="projects-span">JavaScrypt/React</span>
+                  Client: <span class="projects-span">JavaScript/React</span>
                 </p>
               </li>
               <li class="projects-list-item">
@@ -263,7 +355,7 @@
             </ul>
             <p class="margin-top-mid projects-text">
               Chess, with global and session chat rooms. All of the board logic
-              is written in JavaScrypt, multiple loops and conditions are used
+              is written in JavaScript, multiple loops and conditions are used
               to find correct position based on type of peace and its position
               on the board. Server is keeping track of game sessions and users
               states. Web socket separated by rooms is used for real time board
@@ -288,7 +380,7 @@
             />
           </div>
 
-          <div class="projects-text-box" id="js">
+          <div class="projects-text-box">
             <h2 class="sub-heading projects-heading">Brigade Hunter</h2>
             <ul class="projects-tech-list">
               <li class="projects-list-item">
@@ -319,7 +411,7 @@
               <li class="projects-list-item">
                 <ion-icon name="browsers-outline"></ion-icon>
                 <p class="projects-text">
-                  Client: <span class="projects-span">JavaScrypt</span>
+                  Client: <span class="projects-span">JavaScript</span>
                 </p>
               </li>
             </ul>
@@ -348,7 +440,7 @@
             />
           </div>
 
-          <div class="projects-text-box" id="css">
+          <div class="projects-text-box">
             <h2 class="sub-heading projects-heading">Dino Memory</h2>
             <ul class="projects-tech-list">
               <li class="projects-list-item">
@@ -379,7 +471,7 @@
               <li class="projects-list-item">
                 <ion-icon name="browsers-outline"></ion-icon>
                 <p class="projects-text">
-                  Client: <span class="projects-span">JavaScrypt</span>
+                  Client: <span class="projects-span">JavaScript</span>
                 </p>
               </li>
             </ul>
@@ -428,7 +520,7 @@
               <li class="projects-list-item">
                 <ion-icon name="browsers-outline"></ion-icon>
                 <p class="projects-text">
-                  Client: <span class="projects-span">JavaScrypt</span>
+                  Client: <span class="projects-span">JavaScript</span>
                 </p>
               </li>
             </ul>
