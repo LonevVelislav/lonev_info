@@ -51,4 +51,22 @@ const observer = new IntersectionObserver(
   }
 );
 
+document.addEventListener("click", (e) => {
+  const imageBox = document.querySelector(".clicked-img-box");
+  if (e.target.classList.contains("projects-img")) {
+    imageBox.classList.remove("closed-img");
+    const img = document.createElement("img");
+    img.classList.add("clicked-img");
+    img.src = e.target.src;
+    imageBox.appendChild(img);
+  }
+  if (
+    e.target.classList.contains("close-clicked-img") ||
+    e.target.classList.contains("clicked-img-box")
+  ) {
+    imageBox.classList.add("closed-img");
+    imageBox.removeChild(imageBox.children[1]);
+  }
+});
+
 observer.observe(heroSection);

@@ -114,9 +114,12 @@
   .course-name {
     font-size: 4.2rem;
   }
-}
-.projects-link {
-  font-size: 2rem !important;
+  .projects-link {
+    font-size: 2rem !important;
+  }
+  .clicked-img {
+    width: 90%;
+  }
 }
 
 /*704px small tablets*/

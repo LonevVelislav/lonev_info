@@ -87,7 +87,7 @@
 
 /* HERO SECTION*/
 .section-hero {
-  background-color: #e6e7e9;
+  background-color: #353f4c;
   padding: 4.8rem 0 9.6rem 0;
 }
 .hero {
@@ -101,7 +101,7 @@
 }
 .avatar {
   border-radius: 50%;
-  border: 5px solid #020f1f;
+  border: 3px solid #fff;
   width: 17rem;
 }
 .hero-text {
@@ -140,6 +140,7 @@
 
 /* PROJECTS*/
 .section-projects {
+  background-color: #4e5762;
   padding: 9.6rem 0;
 }
 
@@ -149,7 +150,7 @@
 
 .projects-text-box {
   padding-top: 9.6rem;
-  border-top: 2px solid #009999;
+  border-top: 2px solid #020f1f;
 }
 .projects-img-box {
   padding-top: 9.6rem;
@@ -209,11 +210,11 @@
 
 .projects-link:hover,
 .projects-link:active {
-  color: #009999 !important;
+  color: #70d6ff !important;
 }
 
 .projects-list-item ion-icon {
-  color: #009999;
+  color: #70d6ff;
 }
 /* PROJECTS*/
 
@@ -252,6 +253,9 @@
 }
 
 .education-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 4.8rem;
   width: 75%;
   justify-self: center;
@@ -287,7 +291,6 @@
   padding: 9.6rem 0;
 }
 .certificate-box {
-  padding-top: 9.6rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 9px;
   overflow: hidden;
