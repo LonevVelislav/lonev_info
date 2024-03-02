@@ -157,6 +157,9 @@ body {
 .closed-img {
   display: none;
 }
+.open-img {
+  display: grid;
+}
 
 .clicked-img-box {
   position: fixed;
@@ -168,11 +171,8 @@ body {
   z-index: 999;
 }
 .clicked-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  max-width: 100%;
+  max-height: 85vh;
   margin: auto;
   border-radius: 8px;
 }

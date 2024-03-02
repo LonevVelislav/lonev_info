@@ -117,8 +117,8 @@
   .projects-link {
     font-size: 2rem !important;
   }
-  .clicked-img {
-    width: 90%;
+  .close-clicked-img {
+    font-size: 6rem;
   }
 }
 
