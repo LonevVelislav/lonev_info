@@ -85,9 +85,6 @@
     visibility: hidden;
   }
 
-  .nav-open {
-    background-color: #e6e7e9;
-  }
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
