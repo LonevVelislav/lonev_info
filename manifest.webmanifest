@@ -1,12 +1,12 @@
 {
   "icons": [
     {
-      "src": "img/app/app-icon192.png",
+      "src": "img/app/app192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/app/app-icon512.png",
+      "src": "img/app/app512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
