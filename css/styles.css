@@ -112,29 +112,6 @@
 .hero-contacts-list {
   font-size: 4rem;
 }
-.hero-tech-list {
-  font-size: 3.5rem;
-}
-.link-js:hover,
-.link-js:active {
-  color: #ffd60a !important;
-}
-.link-node:hover,
-.link-node:active {
-  color: #9ef01a !important;
-}
-.link-react:hover,
-.link-react:active {
-  color: #70d6ff !important;
-}
-.link-css:hover,
-.link-css:active {
-  color: #0077b6 !important;
-}
-
-.hero-img {
-  width: 100%;
-}
 
 /* HERO SECTION*/
 
